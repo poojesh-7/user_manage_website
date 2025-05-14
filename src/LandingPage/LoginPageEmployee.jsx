@@ -159,7 +159,7 @@ const LoginPageEmployee = () => {
         </label>
         <div className={signup ? "input_holder" : "input_holder switch_form"}>
           <input
-            type="text"
+            type="password"
             onChange={(e) => setUserPassword(e.target.value)}
             value={userPassword}
             placeholder="Enter password"
