@@ -1,0 +1,15 @@
+.main_page {
+  padding: 100px 10px 20px 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .main_page {
+    padding: 100px 30px 20px 30px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .main_page {
+    padding: 100px 50px 20px 50px;
+  }
+}

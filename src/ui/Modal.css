@@ -1,0 +1,40 @@
+.modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: grid;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: all 0.5s ease;
+}
+
+.visible {
+  opacity: 1;
+  z-index: 1;
+}
+.disappear {
+  opacity: 0;
+  visibility: hidden;
+  z-index: -1;
+}
+
+/* .modal {
+  margin-left: -20px;
+}
+
+@media screen and (min-width: 600px) {
+  .modal {
+    margin-left: -30px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .modal {
+    margin-left: -50px;
+  }
+} */

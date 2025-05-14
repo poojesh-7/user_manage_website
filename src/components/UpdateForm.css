@@ -1,0 +1,42 @@
+.update_form {
+  margin-top: 20px;
+  position: relative;
+  border-radius: 5px;
+  width: 280px;
+  padding-bottom: 50px;
+  background-color: white;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.edit_btn {
+  cursor: pointer;
+  background-color: #71aeff;
+  border-radius: 5px;
+  grid-area: rfl;
+}
+
+.change_btn {
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #57ff87;
+  border-radius: 0 0 5px 0;
+}
+
+.overlay {
+  position: absolute;
+  border-radius: 5px;
+  z-index: 1;
+  opacity: 1;
+  margin: -20px 0 0 -30px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(146, 133, 133, 0.245);
+  /* transition: all 0.5s ease; */
+}
+
+.remove_overlay {
+  opacity: 0;
+  z-index: -1;
+}

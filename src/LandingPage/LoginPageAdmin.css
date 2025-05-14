@@ -1,0 +1,106 @@
+.login_section {
+  display: flex;
+  /* height: 650px; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_form {
+  display: flex;
+  border-radius: 5px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: white;
+  min-height: 305px;
+  box-shadow: 5px 5px rgba(112, 112, 112, 0.529);
+}
+
+.login_section label {
+  margin-left: -8px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.switch_form {
+  margin-top: -40px;
+}
+
+.email_label {
+  margin-top: 30px;
+}
+.password_label {
+  margin-top: -30px;
+}
+
+.input_holder {
+  overflow: hidden;
+  width: 250px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.input_holder input {
+  outline: none;
+  padding-left: 10px;
+  font-size: 16px;
+  border: none;
+  width: 250px;
+  height: 42px;
+  border-bottom: 5px solid black;
+}
+.input_holder input::placeholder {
+  margin-left: 10px;
+}
+
+.hover_line {
+  position: absolute;
+  bottom: 0;
+  width: 265px;
+  height: 5px;
+  background-color: rgb(255, 127, 163);
+  transform: translateX(-100%);
+  transition: all 0.8s ease;
+}
+
+.input_holder input:focus ~ .hover_line {
+  transform: translateX(0%);
+}
+
+.login_btn_holder {
+  height: 50px;
+  background-color: antiquewhite;
+  margin: 0 -40px -20px -40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* position: relative;
+  bottom: -120px; */
+}
+.login_btn_holder button {
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+}
+
+.btn_active {
+  cursor: pointer;
+  background-color: #57ff87;
+}
+
+.toggle_p {
+  color: blue;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.inp_error {
+  margin-left: 8px;
+  display: inline;
+  font-size: 14px;
+  color: red;
+}
